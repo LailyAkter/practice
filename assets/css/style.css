@@ -172,8 +172,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .section-padding {
   padding:70px 0px;
 }
+.section-padding-02 {
+  margin-bottom:70px;
+}
 .section-padding-03 {
-  padding-top:70px;
+  margin-top:70px;
 }
 .section-title {
   font-weight: 500;
@@ -1107,10 +1110,6 @@ textarea:-ms-input-placeholder {
 .left-images-about .play-btn a:hover {
   background: var(--gray-color);
   color: var(--black-color);
-}
-
-.about-section {
-  background-color: var(--body-color);
 }
 .about-list {
   margin-top:25px;
@@ -2705,6 +2704,9 @@ close Service support style
 ---=====================================--*/
 
 /* working process */
+.working-process{
+  padding-top:70px;
+}
 .working-process-box{
   position: relative;
 }
@@ -3779,6 +3781,7 @@ Start Blog post style
 .pagination .page-link i{
   font-size: 20px;
   line-height: 25px;
+  color: var(--black-color);
 }
 .blog-details-wrap{
   max-width: 886px;
@@ -3813,7 +3816,7 @@ Start Blog post style
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #6B6161;
+  color: var(--black-color2);
   display: inline-block;
   padding-left: 6px;
 }
@@ -3839,7 +3842,7 @@ Start Blog post style
 .blog-details-wrap .bl-title p::first-letter {
   background: var(--primary_color);
   border-radius: 5px;
-  color: #fff;
+  color: var(--white-color);
   padding: 5px 11px;
   border-radius: 8px;
   font-weight: 700;
@@ -3850,7 +3853,7 @@ Start Blog post style
 }
 .blog-details-wrap .blockqoute {
   margin-top: 36px;
-  background: #F4F4FF;
+  background: var(--body-color);
   border-radius: 20px;
   position: relative;
   padding: 22px 32px;
@@ -3875,6 +3878,11 @@ Start Blog post style
 }
 .blog-details-wrap .img_txt {
   margin-top: 40px;
+}
+.blog-details-wrap .img_txt img{
+  max-width: 100%;
+  height: 300px;
+  margin-top: 20px;
 }
 .blog-details-wrap .img_txt p{
   margin-top: 20px; 
@@ -3918,6 +3926,10 @@ Start Blog post style
 .blog-details-wrap  .imgs img{
   display: block;
   border-radius: 20px;
+}
+.reviews-content-tab .imgs img{
+  border-radius:50%;
+  margin-right:30px;
 }
 
 .article-share-tags {
