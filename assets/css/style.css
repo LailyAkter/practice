@@ -1966,6 +1966,215 @@ textarea:-ms-input-placeholder {
 }
 /* recruitment css */
 
+/* service details */
+.srv-main-image {
+  background: var(--body-color);
+  border-radius: 20px;
+  padding:15px;
+}
+
+.srv-main-image img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.details-content-wraps .srv-txt {
+  margin-top: 33px;
+}
+
+.details-content-wraps .srv-txt p {
+  margin-top: 20px;
+  color: var(--paragraph_color);
+  margin-bottom: 20px;
+}
+
+.details-content-wraps .srv-provess {
+  margin-top: 80px;
+}
+
+.details-content-wraps .srv-provess .process-img {
+  position: relative;
+  height: 506px;
+  max-width: 468px;
+}
+
+.details-content-wraps .srv-provess .process-img .pr1 {
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.details-content-wraps .srv-provess .process-img .pr2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+}
+.details-content-wraps .srv-provess .ser-process h2{
+  margin-top: -10px;
+}
+
+.details-content-wraps .srv-provess .our-src {
+  padding-top: 4px;
+}
+.details-content-wraps .ser-descrip h2{
+  margin-top: 30px;
+}
+.details-content-wraps .ser-descrip p{
+  color: var(--paragraph_color);
+}
+.details-content-wraps .srv-provess .our-src li {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  background: var(--body-color);
+  border-radius: 40px;
+  margin-top: 20px;
+  padding: 11px 18px;
+  padding-left: 100px;
+  box-shadow: var(--box-shadow-one);
+}
+
+.details-content-wraps .srv-provess .our-src li .icon {
+  background: var(--white-color);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.details-content-wraps .srv-provess .our-src li .icon img {
+  vertical-align: middle;
+}
+.details-content-wraps .srv-provess .our-src li h3{
+  font-size: 18px;
+}
+.details-content-wraps .srv-provess .our-src li p {
+  padding-top: 14px;
+  color: var(--paragraph_color);
+}
+
+.details-content-wraps .list-icons{
+  margin-top:20px;
+}
+.details-content-wraps .list-icons li{
+  margin-top: 10px;
+}
+
+.service-widget-right.links {
+  background: var(--body-color);
+  box-shadow:var(--box-shadow-one);
+  border-radius: 40px;
+  margin-bottom: 30px;
+}
+
+.service-widget-right {
+  padding: 32px 40px;
+}
+
+.service-widget-right h2 {
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.service-widget-right h2:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: var(--gray-color);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.service-widget-right h2:before {
+  width: 60px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color:var(--primary_color);
+  content: '';
+  z-index: 1;
+}
+
+.service-widget-right.links .btns {
+  padding-top: 5px;
+}
+
+.service-widget-right.links .btns .btn {
+  margin-top: 20px;
+  background: var(--white-color);
+  border-radius: 500px;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  padding:15px 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--black-color2);
+  position: relative;
+  transition: 0.3s all ease;
+}
+
+.service-widget-right.links .btns .btn i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -11px;
+}
+
+.service-widget-right.links .btns .btn:hover {
+  background-color: var(--primary_color);
+  color: var(--white-color);
+}
+
+.service-widget-right.forms{
+  position: relative;
+  background-image: url(../images/about-big3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  z-index: 1;
+}
+.service-widget-right.forms:after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background:var(--black-color);
+  opacity: 0.7;
+  border-radius: 20px;
+}
+.service-widget-right.forms form{
+  padding-top: 5px;
+}
+.service-widget-right.forms .form-control{
+  margin-top: 20px; 
+  padding: 15px 26px;
+}
+@media (max-width:767px){
+  .service-widget-right{
+    padding: 20px;
+  }
+  .service-widget-right.links .btns .btn{
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+/* service details */
+
 /*---------------------------------------*/
 /*  service CSS
 /*----------------------------------------*/
