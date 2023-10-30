@@ -11,7 +11,7 @@
 /*----------------------------------------*/
 /*  Google Font 
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Jost:wght@300;400;500&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Outfit:wght@400;700&family=Roboto:wght@400;700&display=swap');
 /*----------------------------------------*/
 /*  Common Style
 /*----------------------------------------*/
@@ -36,7 +36,9 @@ body {
   font-size: 14px;
   line-height: 1.75;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--black-color2);
   outline: none;
   visibility: visible;
@@ -51,7 +53,6 @@ body[dir="rtl"] {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Barlow", sans-serif;
   color: var(--black-color2);
   font-weight: 700;
   margin-top: 0;
@@ -363,7 +364,7 @@ textarea:-ms-input-placeholder {
   color: var(--white-color);
   border-radius: 5px;
   font-size: 18px;
-  font-family: "Barlow", sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   height: 60px;
   line-height: 56px;
@@ -467,7 +468,7 @@ textarea:-ms-input-placeholder {
 }
 .header-menu .main-menu li a {
   font-size: 18px;
-  font-family: "Barlow", sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   text-transform: capitalize;
   color: var(--black-color);
@@ -526,7 +527,7 @@ textarea:-ms-input-placeholder {
 .header-menu .main-menu li .sub-menu li a {
   padding: 5px 25px;
   font-size: 15px;
-  font-family: "Barlow", sans-serif;
+ font-family: 'Manrope', sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   display: block;
@@ -827,7 +828,7 @@ textarea:-ms-input-placeholder {
   display: block;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Barlow", sans-serif;
+ font-family: 'Manrope', sans-serif;
   color: var(--white-color);
   padding: 5px 0px;
   position: relative;
@@ -897,7 +898,7 @@ textarea:-ms-input-placeholder {
 }
 
 .hero-section .hero-images {
-  padding-top:105px;
+  padding-top:20px;
   position: relative;
   z-index: 1;
 }
@@ -919,7 +920,7 @@ textarea:-ms-input-placeholder {
 }
 
 .hero-section .hero-content {
-  padding-top: 140px;
+  padding-top: 80px;
 }
 
 .hero-section .hero-content .sub-title {
@@ -978,9 +979,6 @@ textarea:-ms-input-placeholder {
   background-size: cover;
   border-radius: 10px;
   box-shadow: 0px 3px 6px #DDDDDD;
-  padding: 35px;
-  padding-right: 50px;
-  margin-top: 30px;
   transition: all 0.3s linear;
 }
 .features-item .features-content {
@@ -992,15 +990,18 @@ textarea:-ms-input-placeholder {
   line-height: 30px;
   font-weight: 600;
 }
+.features-section{
+  background-color: var(--white-color);
+}
 .features-section .features-wrap {
-  margin-top: -140px;
+  margin-top: -90px;
   position: relative;
   z-index: 5;
-  margin-bottom:70px;
+  margin-bottom: 10px;
 }
 .features-section .features-item {
   padding: 40px 35px;
-  padding-right: 90px;
+  height: 180px;
 }
 .features-section .features-item .features-icon{
   border: 1px solid var(--border-color);
@@ -1127,7 +1128,7 @@ textarea:-ms-input-placeholder {
   margin-right: 10px;
 }
 .about-section{
-  background-color: var(--gray-color);
+  background-color: var(--white-color);
 }
 .about-section .about-img {
   position: relative;
@@ -1172,7 +1173,7 @@ textarea:-ms-input-placeholder {
 .about-section .about-content-wrap .about-list-wrap .about-list li a {
   font-size: 20px;
   line-height: 30px;
-  font-family: "Barlow", sans-serif;
+ font-family: 'Manrope', sans-serif;
   font-weight: 500;
   color: var(--black-color);
 }
@@ -1436,7 +1437,7 @@ textarea:-ms-input-placeholder {
 .page-banner .title {
   font-size: 60px;
   line-height: 1.25;
-  font-family: "Barlow", sans-serif;
+ font-family: 'Manrope', sans-serif;
   display: inline-block;
   font-weight: 600;
   color: var(--white-color);
@@ -1505,7 +1506,7 @@ textarea:-ms-input-placeholder {
 .widget-info ul li .info-text {
   font-size: 16px;
   line-height: 20px;
-  font-family: "Barlow", sans-serif;
+ font-family: 'Manrope', sans-serif;
   font-weight: 600;
   color: var(--gray-color);
 }
@@ -1560,7 +1561,7 @@ textarea:-ms-input-placeholder {
 
 .footer-widget .footer-widget-title {
   font-size: 20px;
-  font-family: "Barlow", sans-serif;
+ font-family: 'Manrope', sans-serif;
   font-weight: 600;
   color:var(--white-color);
 }
