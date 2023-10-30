@@ -923,19 +923,19 @@ textarea:-ms-input-placeholder {
 }
 
 .hero-section .hero-content {
-  padding-top: 80px;
+  padding-top:100px;
 }
 
 .hero-section .hero-content .sub-title {
-  font-size: 16px;
+  font-size: 26px;
   line-height: 30px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: var(--black-color);
 }
 
 .hero-section .hero-content .title {
-  font-size: 70px;
+  font-size: 60px;
   line-height: 78px;
   font-weight: 600;
   color: var(--black-color2);
