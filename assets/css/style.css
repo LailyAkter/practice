@@ -1386,7 +1386,15 @@ textarea:-ms-input-placeholder {
 }
 
 /* Why choose  */
-
+.fun-fact-wraps.about{
+  margin-top: 80px;
+}
+.about-section.about{
+  background-color: var(--body-color);
+}
+.why-choose-us.about {
+  background-color: var(--body-color);
+}
 /*---------------------------------------*/
 /* About CSS
 /*----------------------------------------*/
@@ -1549,7 +1557,6 @@ textarea:-ms-input-placeholder {
   background-position: top;
   background-attachment: fixed;
   overflow: hidden;
-  margin-top: 70px;
 }
 .service-support-sec:after{
   content: '';
@@ -1657,6 +1664,9 @@ textarea:-ms-input-placeholder {
 /* Service support */
 
 /* working process */
+.working-process-area{
+  background-color: var(--gray-color);
+}
 .working-process{
   padding-top:70px;
 }
@@ -1671,12 +1681,14 @@ textarea:-ms-input-placeholder {
   -ms-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
+  height: 430px;
 }
 .working-box .working-content .content_inner {
   position: relative;
   padding: 20px;
   background-size: cover;
   background-position: center;
+  height: 430px;
   background-repeat: no-repeat;
 }
 .working-box .working-content .content_inner .content_inner_in {
@@ -1863,7 +1875,7 @@ textarea:-ms-input-placeholder {
 
 /* recruitment css */
 .recruitment-process{
-  background: var(--body-color);
+  background: var(--gray-color);
 }
 .recruitment-process-box{
   position: relative;
@@ -1987,12 +1999,15 @@ textarea:-ms-input-placeholder {
   margin-top: 20px;
   color: var(--paragraph_color);
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .details-content-wraps .srv-provess {
   margin-top: 80px;
 }
-
+.srv-txt h2{
+  font-size: 40px;
+}    
 .details-content-wraps .srv-provess .process-img {
   position: relative;
   height: 506px;
@@ -2021,9 +2036,11 @@ textarea:-ms-input-placeholder {
 }
 .details-content-wraps .ser-descrip h2{
   margin-top: 30px;
+  font-size: 40px;
 }
 .details-content-wraps .ser-descrip p{
   color: var(--paragraph_color);
+  font-size: 18px;
 }
 .details-content-wraps .srv-provess .our-src li {
   display: inline-block;
@@ -3250,7 +3267,7 @@ Start Blog post style
 }
 .list-icons li{
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 26px;
   color: var(--black-color2);
   padding-left: 28px;
@@ -3546,9 +3563,9 @@ Start Contact page style
   border: 1px inset var(--primary_color);
   border-radius: 500px;
   background-color: var(--white-color);
-  max-width: 1064px;
+  max-width:900px;
   margin: auto;
-  padding: 50px 60px;
+  padding:30px  60px;
   position: relative;
   z-index: 12;
 }
@@ -3582,9 +3599,9 @@ Start Contact page style
 .contact-inner-wrap{
   padding: 80px;
   padding-top: 186px;
-  background: #f4f4ff;
+  background: var(--gray-color);
   border-radius: 50px;
-  margin-top: -100px;
+  margin-top: -70px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -4008,7 +4025,7 @@ Close Faq page style
   line-height: 30px;
   color: var(--white-color);
   position: absolute;
-  right: 10px;
+  right: 8px;
   top: 0px;
 }
 /* footer top */
