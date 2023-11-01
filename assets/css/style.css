@@ -1631,7 +1631,7 @@ textarea:-ms-input-placeholder {
   color: var(--white-color);
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 15px;
 }
 .inner-content-support .btn.btn-default,
 .inner-content-support .btn.btn-transparent:hover{
