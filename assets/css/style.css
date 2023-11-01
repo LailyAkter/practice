@@ -3566,7 +3566,7 @@ Start Contact page style
   z-index: 1;
   padding-left: 85px;
   min-height: 60px;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 .single-con-dts .icon {
   width: 60px;
@@ -3582,7 +3582,7 @@ Start Contact page style
   color: var(--white-color);
 }
 .single-con-dts h2{
-  margin-bottom:10px;
+  margin-bottom:4px;
 }
 .single-con-dts address,
 .single-con-dts a {
@@ -3591,7 +3591,7 @@ Start Contact page style
   font-weight: 400;
   word-break: break-all;
   font-size: 16px;
-  line-height:15px;
+  line-height:28px;
 }
 .right-content-contact-pg .illus {
   background: #F4F4FF;
